@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_login_index">
+
+    <fragment
+        android:id="@+id/nav_login_index"
+        android:name="com.softtechno.ilososlayout.ui.login.index.LoginIndexFragment"
+        android:label="@string/nav_login_index"
+        tools:layout="@layout/fragment_login_index" />
+
+    <fragment
+        android:id="@+id/nav_login_verified"
+        android:name="com.softtechno.ilososlayout.ui.login.verified.LoginVerifiedFragment"
+        android:label="@string/nav_login_verified"
+        tools:layout="@layout/fragment_login_verified" />
+
+    <fragment
+        android:id="@+id/nav_order_create"
+        android:name="com.softtechno.ilososlayout.ui.order.create.OrderCreateFragment"
+        android:label="@string/nav_order_create"
+        tools:layout="@layout/fragment_order_create" />
+
+    <fragment
+        android:id="@+id/nav_profile_index"
+        android:name="com.softtechno.ilososlayout.ui.profile.index.ProfileIndexFragment"
+        android:label="@string/nav_profile_index"
+        tools:layout="@layout/fragment_profile_index" />
+
+    <fragment
+        android:id="@+id/nav_profile_settings"
+        android:name="com.softtechno.ilososlayout.ui.profile.settings.ProfileSettingsFragment"
+        android:label="@string/nav_profile_settings"
+        tools:layout="@layout/fragment_profile_settings" />
+
+    <fragment
+        android:id="@+id/nav_locations_index"
+        android:name="com.softtechno.ilososlayout.ui.locations.index.LocationsIndexFragment"
+        android:label="@string/nav_locations_index"
+        tools:layout="@layout/fragment_locations_index" />
+
+    <fragment
+        android:id="@+id/nav_locations_create"
+        android:name="com.softtechno.ilososlayout.ui.locations.create.LocationsCreateFragment"
+        android:label="@string/nav_locations_create"
+        tools:layout="@layout/fragment_locations_create" />
+
+    <fragment
+        android:id="@+id/nav_locations_update"
+        android:name="com.softtechno.ilososlayout.ui.locations.update.LocationsUpdateFragment"
+        android:label="@string/nav_locations_update"
+        tools:layout="@layout/fragment_locations_update" />
+
+    <fragment
+        android:id="@+id/nav_locations_help"
+        android:name="com.softtechno.ilososlayout.ui.locations.help.LocationsHelpFragment"
+        android:label="@string/nav_locations_help"
+        tools:layout="@layout/fragment_locations_help" />
+
+    <fragment
+        android:id="@+id/nav_locations_search_index"
+        android:name="com.softtechno.ilososlayout.ui.locations.search.index.LocationsSearchIndexFragment"
+        android:label="@string/nav_locations_search_index"
+        tools:layout="@layout/fragment_locations_search_index" />
+
+    <fragment
+        android:id="@+id/nav_locations_search_map"
+        android:name="com.softtechno.ilososlayout.ui.locations.search.map.LocationsSearchMapFragment"
+        android:label="@string/nav_locations_search_map"
+        tools:layout="@layout/fragment_locations_search_map" />
+
+</navigation>

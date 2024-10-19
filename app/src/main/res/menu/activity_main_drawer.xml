@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login_index"
+            android:icon="@drawable/ico_menu_location"
+            android:title="@string/nav_login_index" />
+        <item
+            android:id="@+id/nav_login_verified"
+            android:icon="@drawable/ico_menu_order"
+            android:title="@string/nav_login_verified" />
+        <item
+            android:id="@+id/nav_order_create"
+            android:icon="@drawable/ico_menu_profile"
+            android:title="@string/nav_order_create" />
+        <item
+            android:id="@+id/nav_profile_index"
+            android:icon="@drawable/ico_menu_location"
+            android:title="@string/nav_profile_index" />
+        <item
+            android:id="@+id/nav_profile_settings"
+            android:icon="@drawable/ico_menu_location"
+            android:title="@string/nav_profile_settings" />
+        <item
+            android:id="@+id/nav_locations_index"
+            android:icon="@drawable/ico_menu_location"
+            android:title="@string/nav_locations_index" />
+        <item
+            android:id="@+id/nav_locations_create"
+            android:icon="@drawable/ico_menu_location"
+            android:title="@string/nav_locations_create" />
+        <item
+            android:id="@+id/nav_locations_update"
+            android:icon="@drawable/ico_menu_location"
+            android:title="@string/nav_locations_update" />
+        <item
+            android:id="@+id/nav_locations_help"
+            android:icon="@drawable/ico_menu_location"
+            android:title="@string/nav_locations_help" />
+        <item
+            android:id="@+id/nav_locations_search_index"
+            android:icon="@drawable/ico_menu_location"
+            android:title="@string/nav_locations_search_index" />
+        <item
+            android:id="@+id/nav_locations_search_map"
+            android:icon="@drawable/ico_menu_location"
+            android:title="@string/nav_locations_search_map" />
+    </group>
+</menu>

@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.ilososLayout" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:forceDarkAllowed" tools:ignore="NewApi">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="colorPrimaryDark">@color/white</item>
+    </style>
+
+    <style name="Theme.ilososLayout.Button" parent="android:Widget.Button">
+        <item name="colorPrimary">@color/green</item>
+    </style>
+
+    <style name="Theme.ilososLayout.ButtonMenu" parent="android:Widget.Button">
+        <item name="colorPrimary">@color/gray_hard</item>
+    </style>
+
+</resources>

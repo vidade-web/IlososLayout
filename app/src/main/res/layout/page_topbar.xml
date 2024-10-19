@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/menu_button"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:background="@drawable/menu_open"
+        android:text=""
+        android:theme="@style/Theme.ilososLayout.ButtonMenu"
+        android:visibility="invisible"
+        tools:ignore="HardcodedText,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I'm a button"
+        android:visibility="invisible"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+
+    <TextView
+        style="@style/Style.ilososLayout.PagetitleBig"
+        android:id="@+id/pagetitle_big"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="@string/login_index_pagetitle" />
+
+</RelativeLayout>

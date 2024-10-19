@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Золотарь</string>
+
+    <string name="login_index_pagetitle">Авторизация</string>
+    <string name="login_index_form_phone">Номер телефона</string>
+    <string name="login_index_form_name">Ваше имя</string>
+    <string name="login_index_form_email">E-mail</string>
+    <string name="login_index_form_submit">Войти</string>
+    <string name="login_index_form_error">Заполните все поля</string>
+
+
+
+
+    <string name="nav_login_index">nav_login_index21</string>
+    <string name="nav_login_verified">nav_login_verified</string>
+    <string name="nav_order_create">nav_order_create</string>
+    <string name="nav_profile_index">nav_profile_index</string>
+    <string name="nav_profile_settings">nav_profile_settings</string>
+    <string name="nav_locations_index">nav_locations_index</string>
+    <string name="nav_locations_create">nav_locations_create</string>
+    <string name="nav_locations_update">nav_locations_update</string>
+    <string name="nav_locations_help">nav_locations_help</string>
+    <string name="nav_locations_search_index">nav_locations_search_index</string>
+    <string name="nav_locations_search_map">nav_locations_search_map</string>
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+</resources>
