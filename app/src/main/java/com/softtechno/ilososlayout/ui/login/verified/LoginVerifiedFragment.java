@@ -10,6 +10,8 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.softtechno.ilososlayout.MainActivity;
+import com.softtechno.ilososlayout.R;
 import com.softtechno.ilososlayout.databinding.FragmentLoginVerifiedBinding;
 
 public class LoginVerifiedFragment extends Fragment {
@@ -22,6 +24,11 @@ public class LoginVerifiedFragment extends Fragment {
         View root = binding.getRoot();
         final TextView textView = binding.textLoginVerified;
         loginVerifiedViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        MainActivity activity = ((MainActivity) getActivity());
+        if(activity != null) {
+            activity.setPagetitle(R.string.login_verified_pagetitle, "small");
+            activity.setStatusBackButton(true);
+        }
         return root;
     }
 

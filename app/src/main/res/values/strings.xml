@@ -8,6 +8,8 @@
     <string name="login_index_form_submit">Войти</string>
     <string name="login_index_form_error">Заполните все поля</string>
 
+    <string name="login_verified_pagetitle">Настройки профиля</string>
+
 
 
 

@@ -11,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
+import com.softtechno.ilososlayout.MainActivity;
 import com.softtechno.ilososlayout.R;
 import com.softtechno.ilososlayout.databinding.FragmentLoginIndexBinding;
 
@@ -26,7 +27,8 @@ public class LoginIndexFragment extends Fragment {
         View root = binding.getRoot();
         userPhone = binding.loginUserPhone;
         loginError = binding.loginError;
-        
+        MainActivity activity = ((MainActivity) getActivity());
+        if(activity != null) activity.setPagetitle(R.string.login_index_pagetitle, "big");
         return root;
     }
 
@@ -44,7 +46,6 @@ public class LoginIndexFragment extends Fragment {
                 NavHostFragment.findNavController(LoginIndexFragment.this).navigate(R.id.nav_login_verified);
             }
         });
-
     }
 
     @Override
