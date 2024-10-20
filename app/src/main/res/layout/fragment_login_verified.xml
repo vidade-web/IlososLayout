@@ -7,21 +7,67 @@
     android:layout_height="match_parent"
     tools:context=".ui.login.verified.LoginVerifiedFragment">
 
-    <TextView
-        android:id="@+id/text_login_verified"
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        android:textColor="#ffffff"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/login_verified_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:textColor="@color/black" />
+
+            <EditText
+                style="@style/Style.ilososLayout.EditText"
+                android:id="@+id/login_verified_code"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingHorizontal="16dp"
+                android:autofillHints="@string/login_verified_form_code"
+                android:hint="@string/login_verified_form_code"
+                android:inputType="number"
+                tools:ignore="TextContrastCheck,VisualLintTextFieldSize" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent">
 
+        <TextView
+            style="@style/Style.ilososLayout.ErrorStringSmall"
+            android:id="@+id/submit_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/login_verified_form_error"
+            android:visibility="invisible"/>
 
+        <Button
+            style="@style/Style.ilososLayout.Button"
+            android:theme="@style/Theme.ilososLayout.Button"
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="@string/login_verified_form_submit"
+            tools:ignore="TextContrastCheck,VisualLintButtonSize" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

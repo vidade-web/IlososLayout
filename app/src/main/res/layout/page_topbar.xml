@@ -18,13 +18,14 @@
         tools:ignore="HardcodedText,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <Button
+        style="@style/Style.ilososLayout.ButtonBack"
+        android:theme="@style/Theme.ilososLayout.Button"
         android:id="@+id/back_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:drawableStart="@drawable/back_button_arrow"
-        android:text="I'm a button"
+        android:layout_width="65dp"
+        android:layout_height="36dp"
+        android:text=""
         android:visibility="invisible"
-        tools:ignore="HardcodedText,TextContrastCheck" />     
+        tools:ignore="HardcodedText,RtlHardcoded,TextContrastCheck" />
 
     <TextView
         style="@style/Style.ilososLayout.Pagetitle"
@@ -32,5 +33,15 @@
         android:layout_width="match_parent"
         android:layout_height="36dp"
         android:layout_marginBottom="32dp"/>
+
+    <Button
+        style="@style/Style.ilososLayout.ButtonBack"
+        android:theme="@style/Theme.ilososLayout.Button"
+        android:id="@+id/help_button"
+        android:layout_width="65dp"
+        android:layout_height="36dp"
+        android:text=""
+        android:visibility="invisible"
+        tools:ignore="HardcodedText,RtlHardcoded,TextContrastCheck" />
 
 </RelativeLayout>

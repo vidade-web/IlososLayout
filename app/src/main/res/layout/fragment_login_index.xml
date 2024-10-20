@@ -28,8 +28,8 @@
                 android:paddingHorizontal="16dp"
                 android:autofillHints="@string/login_index_form_phone"
                 android:hint="@string/login_index_form_phone"
-                android:inputType="phone"
-                tools:ignore="TextContrastCheck" />
+                android:inputType="phone|number"
+                tools:ignore="TextContrastCheck,VisualLintTextFieldSize" />
 
             <EditText
                 android:id="@+id/login_user_name"
@@ -41,7 +41,7 @@
                 android:hint="@string/login_index_form_name"
                 android:inputType="text"
                 android:paddingHorizontal="16dp"
-                tools:ignore="TextContrastCheck" />
+                tools:ignore="TextContrastCheck,VisualLintTextFieldSize" />
 
             <EditText
                 android:id="@+id/login_user_email"
@@ -53,7 +53,7 @@
                 android:hint="@string/login_index_form_email"
                 android:inputType="textEmailAddress"
                 android:paddingHorizontal="16dp"
-                tools:ignore="TextContrastCheck" />
+                tools:ignore="TextContrastCheck,VisualLintTextFieldSize" />
 
         </LinearLayout>
 
@@ -68,7 +68,7 @@
 
         <TextView
             style="@style/Style.ilososLayout.ErrorStringSmall"
-            android:id="@+id/login_error"
+            android:id="@+id/submit_error"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
@@ -78,7 +78,7 @@
         <Button
             style="@style/Style.ilososLayout.Button"
             android:theme="@style/Theme.ilososLayout.Button"
-            android:id="@+id/login_button"
+            android:id="@+id/submit_button"
             android:layout_width="match_parent"
             android:layout_height="52dp"
             android:text="@string/login_index_form_submit"

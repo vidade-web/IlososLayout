@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Золотарь</string>
 
+    <string name="back_button">Назад</string>
+    <string name="help_button">Помощь</string>
+
     <string name="login_index_pagetitle">Авторизация</string>
     <string name="login_index_form_phone">Номер телефона</string>
     <string name="login_index_form_name">Ваше имя</string>
@@ -9,6 +12,15 @@
     <string name="login_index_form_error">Заполните все поля</string>
 
     <string name="login_verified_pagetitle">Настройки профиля</string>
+    <string name="login_verified_description">Введите код подтверждения, отправленный \nна номер </string>
+    <string name="login_verified_form_code">Код</string>
+    <string name="login_verified_form_submit">Отправить</string>
+    <string name="login_verified_form_error">Введите код из смс</string>
+
+    <string name="order_create_pagetitle">Новый заказ</string>
+
+
+
 
 
 
